@@ -1,0 +1,37 @@
+# Reporte 014 — Arquitectura Defensiva Fundamental
+
+## Objetivo
+
+Comprender los principios básicos de diseño seguro de redes y sistemas.
+
+## Conceptos Estudiados
+
+* Segmentación
+* VLAN
+* Firewall
+* Identidad
+* Principio de mínimo privilegio
+
+## Hallazgos
+
+La protección de una organización no depende de un único control de seguridad.
+
+La combinación de segmentación, control de identidad y monitoreo reduce significativamente la superficie de ataque.
+
+## Riesgos Analizados
+
+* Redes planas.
+* Privilegios excesivos.
+* Servicios expuestos.
+* Falta de segmentación.
+
+## Recomendaciones
+
+* Implementar segmentación lógica.
+* Aplicar mínimo privilegio.
+* Mantener monitoreo continuo.
+* Proteger sistemas críticos de identidad.
+
+## Conclusión
+
+Una arquitectura defensiva sólida dificulta el movimiento lateral y limita el impacto de un incidente.
