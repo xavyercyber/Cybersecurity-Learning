@@ -1,0 +1,40 @@
+
+
+## Objetivo
+
+Identificar los dispositivos activos dentro de una red local.
+
+## Herramientas
+
+* Kali Linux
+* Nmap
+
+## Metodología
+
+Comando utilizado:
+
+sudo nmap -sn 192.168.1.0/24
+
+## Resultados
+
+Hosts identificados:
+
+* 192.168.1.254 (Gateway)
+* 192.168.1.162 (Kali Linux)
+* 192.168.1.68 (Endpoint Windows)
+
+## Hallazgos
+
+Se identificaron tres dispositivos activos dentro de la red.
+
+El gateway fue identificado correctamente mediante la tabla de rutas del sistema.
+
+## Riesgo
+
+Bajo.
+
+La identificación de activos es una fase normal de reconocimiento y no representa una vulnerabilidad por sí misma.
+
+## Conclusión
+
+Se completó exitosamente el proceso de descubrimiento de activos dentro de la red local.
