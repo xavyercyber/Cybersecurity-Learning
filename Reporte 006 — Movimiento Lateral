@@ -1,0 +1,35 @@
+
+
+## Objetivo
+
+Comprender cómo un atacante se desplaza dentro de una red después de obtener acceso inicial.
+
+## Conceptos Estudiados
+
+* Movimiento lateral
+* Credenciales comprometidas
+* SMB
+* Segmentación de red
+* VLAN
+
+## Hallazgos
+
+El movimiento lateral ocurre cuando un atacante ya se encuentra dentro de la red y busca acceder a otros equipos utilizando credenciales robadas o servicios internos.
+
+La segmentación de red reduce significativamente la capacidad de desplazamiento del atacante.
+
+## Riesgo
+
+Alto.
+
+Un atacante con capacidad de movimiento lateral puede expandir rápidamente su acceso dentro de la organización.
+
+## Recomendaciones
+
+* Implementar VLANs.
+* Aplicar principio de mínimo privilegio.
+* Monitorear autenticaciones inusuales.
+
+## Conclusión
+
+La segmentación de red es una de las defensas más efectivas contra el movimiento lateral.
