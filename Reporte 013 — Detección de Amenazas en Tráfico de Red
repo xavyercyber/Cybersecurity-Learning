@@ -1,0 +1,41 @@
+# Reporte 013 — Detección de Amenazas en Tráfico de Red
+
+## Objetivo
+
+Identificar indicadores de comportamiento sospechoso dentro del tráfico de red.
+
+## Herramientas
+
+* Wireshark
+* Análisis de patrones
+
+## Conceptos Estudiados
+
+* DNS
+* HTTPS
+* Beaconing
+* C2
+* Análisis de comportamiento
+
+## Hallazgos
+
+Las amenazas modernas suelen ocultar sus comunicaciones mediante protocolos legítimos como HTTPS.
+
+La detección se basa en patrones de comportamiento más que en el contenido del tráfico.
+
+## Indicadores Observados
+
+* Conexiones repetitivas.
+* Intervalos constantes.
+* Actividad independiente del usuario.
+* Infraestructura desconocida.
+
+## Riesgo
+
+Alto.
+
+Las comunicaciones C2 permiten al atacante mantener control sobre sistemas comprometidos.
+
+## Conclusión
+
+El análisis de comportamiento es una capacidad fundamental para la detección moderna de amenazas.
