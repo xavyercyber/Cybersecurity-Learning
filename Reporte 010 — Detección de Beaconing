@@ -1,0 +1,31 @@
+
+
+## Objetivo
+
+Aprender a identificar patrones de comunicación compatibles con C2.
+
+## Conceptos Estudiados
+
+* Beaconing
+* Intervalos constantes
+* Comunicación persistente
+* C2 sobre HTTPS
+
+## Hallazgos
+
+Un patrón sospechoso suele presentar:
+
+* Intervalos constantes.
+* Comunicación repetitiva.
+* Independencia de la actividad del usuario.
+* Conexiones hacia infraestructura desconocida.
+
+## Riesgo
+
+Alto.
+
+El beaconing puede indicar la presencia de malware activo.
+
+## Conclusión
+
+El análisis de comportamiento es una herramienta efectiva para detectar amenazas ocultas dentro del tráfico cifrado.
