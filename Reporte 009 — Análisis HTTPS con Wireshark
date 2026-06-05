@@ -1,0 +1,29 @@
+
+
+## Objetivo
+
+Comprender el comportamiento del tráfico HTTPS dentro de una red.
+
+## Herramientas
+
+* Wireshark
+
+## Hallazgos
+
+Se observaron múltiples conexiones HTTPS hacia infraestructura de Google.
+
+IP observada:
+
+* 142.250.65.202
+
+El tráfico presentó intervalos variables y dependientes de la actividad del usuario.
+
+## Riesgo
+
+Bajo.
+
+No se detectaron patrones compatibles con comunicaciones automatizadas.
+
+## Conclusión
+
+El tráfico HTTPS observado corresponde a navegación legítima.
