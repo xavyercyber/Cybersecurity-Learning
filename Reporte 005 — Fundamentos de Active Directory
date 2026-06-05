@@ -1,0 +1,29 @@
+
+
+## Objetivo
+
+Comprender la arquitectura de identidad dentro de entornos Windows.
+
+## Conceptos Estudiados
+
+* Active Directory
+* Domain Controller
+* Kerberos
+* NTLM
+* Single Sign-On
+
+## Hallazgos
+
+La identidad constituye uno de los activos más críticos dentro de una infraestructura empresarial.
+
+La toma de control de identidades privilegiadas puede conducir al compromiso total del entorno.
+
+## Riesgo
+
+Alto.
+
+La pérdida de control de identidad representa una de las amenazas más graves para una organización.
+
+## Conclusión
+
+La protección de credenciales y privilegios debe considerarse una prioridad estratégica.
