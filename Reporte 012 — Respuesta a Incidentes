@@ -1,0 +1,35 @@
+# Reporte 012 — Respuesta a Incidentes
+
+## Objetivo
+
+Comprender el proceso de gestión de incidentes de seguridad.
+
+## Conceptos Estudiados
+
+* Detección
+* Contención
+* Erradicación
+* Recuperación
+* Lecciones aprendidas
+
+## Hallazgos
+
+Una respuesta efectiva requiere actuar rápidamente para contener el incidente sin destruir evidencia útil para la investigación.
+
+La documentación adecuada permite mejorar la capacidad de respuesta futura.
+
+## Riesgo
+
+Alto.
+
+Una respuesta tardía puede incrementar significativamente el impacto del incidente.
+
+## Recomendaciones
+
+* Establecer procedimientos documentados.
+* Definir responsables.
+* Mantener registros de eventos.
+
+## Conclusión
+
+La preparación previa determina en gran medida el éxito de la respuesta ante incidentes.
