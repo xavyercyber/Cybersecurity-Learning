@@ -1,0 +1,35 @@
+# Reporte 011 — Continuidad de Negocio y Resiliencia
+
+## Objetivo
+
+Comprender la importancia de la recuperación operativa después de un incidente de ciberseguridad.
+
+## Conceptos Estudiados
+
+* Backups
+* Recuperación de desastres
+* Ransomware
+* Continuidad de negocio
+* Resiliencia
+
+## Hallazgos
+
+La seguridad perfecta no existe. Sin embargo, una organización puede minimizar el impacto de un incidente mediante mecanismos adecuados de recuperación.
+
+Las copias de seguridad representan uno de los controles más importantes para garantizar la continuidad operativa.
+
+## Riesgo
+
+Crítico.
+
+La pérdida o cifrado de respaldos puede impedir la recuperación de la organización.
+
+## Recomendaciones
+
+* Mantener respaldos offline.
+* Verificar periódicamente la restauración.
+* Separar los sistemas de respaldo del entorno principal.
+
+## Conclusión
+
+La capacidad de recuperación es tan importante como la capacidad de prevención.
