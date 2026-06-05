@@ -1,0 +1,49 @@
+
+
+## Objetivo
+
+Evaluar la exposición del servicio SMB dentro de la red local.
+
+## Herramientas
+
+* Nmap
+
+## Metodología
+
+Comandos utilizados:
+
+sudo nmap -Pn -sS -p- 192.168.1.84
+
+sudo nmap --script smb-enum-shares -p445 192.168.1.84
+
+## Resultados
+
+Puertos identificados:
+
+* 135/tcp
+* 139/tcp
+* 445/tcp
+
+Posteriormente el firewall bloqueó el acceso al puerto 445.
+
+## Hallazgos
+
+El servicio SMB se encontraba protegido por el firewall del sistema.
+
+No fue posible enumerar recursos compartidos.
+
+## Riesgo
+
+Medio.
+
+SMB es uno de los servicios más utilizados para movimiento lateral dentro de redes Windows.
+
+## Recomendaciones
+
+* Mantener firewall activo.
+* Restringir acceso SMB.
+* Revisar recursos compartidos.
+
+## Conclusión
+
+No se detectó exposición indebida del servicio SMB.
