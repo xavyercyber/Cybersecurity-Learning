@@ -1,0 +1,47 @@
+
+
+## Executive Summary
+
+A basic network traffic analysis was conducted to identify potential Command and Control (C2) patterns. No anomalous behavior was detected during the observation window.
+
+## Methodology
+
+Tool:
+- Wireshark
+
+Filters:
+- dns
+- tcp.port == 443
+
+Capture duration:
+- 2–3 minutes
+
+## Findings
+
+Observed domains:
+- firefox.settings.services.mozilla.com
+- firefox-settings-attachments.cdn.mozilla.net
+- safebrowsing.googleapis.com
+
+Observed IP:
+- 142.250.65.202
+
+Traffic characteristics:
+- Variable intervals
+- CDN-related traffic
+- User-driven behavior
+
+## Risk Assessment
+
+No beaconing patterns or persistent communication with unknown infrastructure were identified.
+
+## Recommendations
+
+- Keep firewall enabled
+- Maintain system updates
+- Monitor network traffic periodically
+- Avoid untrusted downloads
+
+## Conclusion
+
+No indicators of compromise were observed during the analysis window.
