@@ -1,0 +1,29 @@
+
+
+## Objetivo
+
+Analizar consultas DNS para comprender el comportamiento normal de una red.
+
+## Herramientas
+
+* Wireshark
+
+## Hallazgos
+
+Dominios observados:
+
+* firefox.settings.services.mozilla.com
+* firefox-settings-attachments.cdn.mozilla.net
+* safebrowsing.googleapis.com
+
+Se observaron consultas y respuestas DNS legítimas relacionadas con Firefox y Google.
+
+## Riesgo
+
+Bajo.
+
+No se identificaron dominios desconocidos ni patrones sospechosos.
+
+## Conclusión
+
+El tráfico DNS observado corresponde a actividad legítima del sistema y del navegador.
