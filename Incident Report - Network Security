@@ -1,0 +1,49 @@
+
+
+## Executive Summary
+
+Suspicious network activity was detected on endpoint "oficina-ventas". A repetitive HTTPS connection pattern was observed every 10 seconds for approximately 2 hours. The activity occurred after the execution of a downloaded executable file.
+
+## Detection
+
+The incident was identified through network traffic analysis.
+
+Indicators:
+- HTTPS traffic (443)
+- Repetition every 10 seconds
+- Duration of 2 hours
+- No user interaction
+
+## Technical Analysis
+
+IP:
+- 185.243.115.23
+
+Domain:
+- update-check-service.net
+
+Observed Pattern:
+- Persistent communication
+- Constant interval
+- Automated behavior
+
+Behavior Classification:
+- Possible Command and Control (C2) Beaconing
+
+## Risk Assessment
+
+Risk Level: HIGH
+
+The observed behavior is consistent with potential C2 communications and may indicate active compromise of the endpoint.
+
+## Immediate Actions
+
+- Isolate affected endpoint
+- Block malicious IP
+- Block suspicious domain
+- Review persistence mechanisms
+- Inspect additional endpoints
+
+## Conclusion
+
+The system shows indicators consistent with potential C2 activity. Immediate containment and investigation are recommended.
