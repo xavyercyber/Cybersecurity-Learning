@@ -1,0 +1,34 @@
+
+## Objetivo
+
+Comprender cómo los atacantes mantienen acceso a sistemas comprometidos.
+
+## Conceptos Estudiados
+
+* Persistencia
+* C2 (Command and Control)
+* Usuarios ocultos
+* Servicios maliciosos
+* Tareas programadas
+
+## Hallazgos
+
+La persistencia permite que un atacante conserve acceso incluso después de reinicios o acciones defensivas parciales.
+
+Los servidores C2 permiten enviar comandos y recibir información de los sistemas comprometidos.
+
+## Riesgo
+
+Alto.
+
+La persistencia prolonga la permanencia del atacante dentro del entorno.
+
+## Recomendaciones
+
+* Revisar cuentas privilegiadas.
+* Auditar tareas programadas.
+* Monitorear conexiones salientes.
+
+## Conclusión
+
+La eliminación del malware no garantiza la erradicación de la amenaza si la persistencia permanece activa.
